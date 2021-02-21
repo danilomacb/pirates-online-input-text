@@ -1,0 +1,14 @@
+{
+    "name": "Pirates Online Input Text",
+    "version": "1.0",
+    "description": "Change input type number to text in Pirates Online website.",
+    "author": "Danilo Macedo Bakun",
+    "content_scripts": [
+      {
+        "matches": ["https://cloudsea.pirategames.online/*"],
+        "js": ["script.js"]
+      }
+    ],
+    "manifest_version": 2
+  }
+  
