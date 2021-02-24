@@ -6,7 +6,7 @@ window.addEventListener("load", () => {
   Array.prototype.slice.call(inputs).map((input) => {
     input.type = "text";
     input.size = "10";
-    input.value = "1";
+    input.value = "";
 
     input.onkeydown = (e) => {
       if (e.key === "Backspace") {
