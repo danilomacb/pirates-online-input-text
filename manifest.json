@@ -1,14 +1,17 @@
 {
-    "name": "Pirates Online Input Text",
-    "version": "1.0",
-    "description": "Change input type number to text in Pirates Online website.",
-    "author": "Danilo Macedo Bakun",
-    "content_scripts": [
-      {
-        "matches": ["https://cloudsea.pirategames.online/*"],
-        "js": ["script.js"]
-      }
-    ],
-    "manifest_version": 2
-  }
-  
+  "name": "Pirates Online Input Text",
+  "version": "1.0",
+  "description": "Change input type number to text in Pirates Online website.",
+  "author": "Danilo Macedo Bakun",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://cloudsea.pirategames.online/storage-box",
+        "https://cloudsea.pirategames.online/award-center/*",
+        "https://cloudsea.pirategames.online/vote-center/*"
+      ],
+      "js": ["script.js"]
+    }
+  ],
+  "manifest_version": 2
+}
